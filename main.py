@@ -7,6 +7,7 @@ x_size = 500
 y_size = 500
 width_icon = int((GetSystemMetrics(0) - x_size) / 2)
 height_icon = int((GetSystemMetrics(1) - y_size) / 2)
+# ОБЯЗАТЕЛЬНО НУЖНО ВСТАВИТЬ СВОЙ ПУТЬ К ФАЙЛУ
 window.iconbitmap("C:/Users/Вадим/Downloads/Calculator_30001.ico")
 entry = tk.Entry(window, background="black", foreground="white", font=('Arial Black', 40), justify="right")
 label = tk.Label(window, background="black", foreground="white", font=('Arial Black', 40), anchor="ne")
